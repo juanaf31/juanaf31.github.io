@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan | Full-Stack Developer</title>
+    <link rel="icon" href="./img/mylogo4.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="./js/animatesection.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body onload="myFunction()">
+
+    <div id="loading">
+        <div class="divider" aria-hidden="true"></div>
+        <p class="loading-text" aria-label="Loading">
+            <span class="letter" aria-hidden="true">L</span>
+            <span class="letter" aria-hidden="true">o</span>
+            <span class="letter" aria-hidden="true">a</span>
+            <span class="letter" aria-hidden="true">d</span>
+            <span class="letter" aria-hidden="true">i</span>
+            <span class="letter" aria-hidden="true">n</span>
+            <span class="letter" aria-hidden="true">g</span>
+        </p>
+    </div>
+
+    <div id="myDiv" class="animatebottom">
+        <nav class="navbar is-fixed-top p-3" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <img src="./img/mylogo4.png" width="80">
+                    <a id="myburger" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-end topLeftBorders">
+                        <a class="navbar-item is-size-6 is-uppercase mx-3 nav-active" href="#home">
+                            Home
+                        </a>
+                        <a class="navbar-item is-size-6 is-uppercase mx-3" href="#about">
+                            About
+                        </a>
+                        <a class="navbar-item is-size-6 is-uppercase mx-3" href="#skill">
+                            Skills
+                        </a>
+                        <a class="navbar-item is-size-6 is-uppercase mx-3" href="#portfolio" id="myportfolio">
+                            portfolio
+                        </a>
+                        <a class="navbar-item is-size-6 is-uppercase mx-3" href="#contact">
+                            contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="is-transparent is-fixed-bottom sidenav">
+            <a class="button is-small is-linkedin is-rounded"
+                href="https://www.linkedin.com/in/muhammad-juan-01bb9519b/" target="_blank">
+                <span class="icon">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </span>
+            </a>
+            <a class="button is-small is-github is-rounded" href="https://github.com/juanaf31/" target="_blank">
+                <span class="icon">
+                    <i class="fab fa-github fa-lg"></i>
+                </span>
+            </a>
+            <a class="button is-small is-facebook is-rounded" href="https://www.facebook.com/juan.af.92/"
+                target="_blank">
+                <span class="icon">
+                    <i class="fab fa-facebook fa-lg"></i>
+                </span>
+            </a>
+            <a class="button is-small is-flickr is-rounded" href="https://www.instagram.com/juan_alfirdaus/"
+                href="_blank">
+                <span class="icon">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </span>
+            </a>
+            <a class="button is-small is-twitter is-rounded" href="https://twitter.com/juan_alfirdaus" target="_blank">
+                <span class="icon">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </span>
+            </a>
+        </div>
+        <section class="hero is-white has-text-centered is-fullheight" id="home">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="column is-centered">
+                        <div class="column" data-aos="fade-up">
+                            <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-5-mobile">
+                                Welcome to My Site
+                            </h1>
+                            <div class="intro">
+                                <h1 class="subtitle is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
+                                    I'm a
+                                </h1>
+                                <h1
+                                    class="typing subtitle is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
+                                    hi
+                                </h1>
+                            </div>
+                            <img class="avatar mt-2" src="./img/myavatar2.png" alt="" width="200">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section is-large has-text-centered" id="about">
+            <div class="container" data-aos="fade-up" data-aos-duration="2000">
+                <div class="columns is-centered">
+                    <div class="column is-three-fifths">
+                        <h1 class="title is-spaced is-size-3-desktop is-size-5-mobile has-text-white">Hi, I’m Juan. Nice
+                            to
+                            Meet You</h1>
+                        <h2 class="subtitle is-size-5-desktop is-size-6-mobile has-text-white">I'm a front-end
+                            enthusiasm based in small city called Jombang, Indonesia <br>
+                            Innovation is My Passion
+                        </h2>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section is-medium has-text-centered" id="skill">
+            <div class="container is-narrow">
+                <div class="box">
+                    <div class="content">
+                        <div class="columns is-centered">
+                            <div class="column">
+                                <figure class="image" id="is-skill-icon"><img src="img/backend.png"></figure>
+                                <h1 class="title is-size-4 is-spaced">Back-End Developer</h1>
+                                <p class="list-title has-text-primary has-text-weight-normal">Languages :
+                                </p>
+                                <p>GOLANG</p>
+                                <!-- <p class="list-title has-text-primary has-text-weight-normal">Frameworks :</p>
+                                <p>Laravel</p> -->
+                            </div>
+                            <div class="column" id="centercolumn">
+                                <figure class="image" id="is-skill-icon"><img src="img/frontend.png"></figure>
+                                <h1 class="title is-size-4 is-spaced">Front-End Developer</h1>
+                                <p class="list-title has-text-primary has-text-weight-normal">Languages :</p>
+                                <p>HTML, CSS, Javascript</p>
+                                <p class="list-title has-text-primary has-text-weight-normal">Frameworks :</p>
+                                <p>Bootstrap</p>
+                                <p>Bulma</p>
+                                <p>Material UI</p>
+                                <p>GSAP</p>
+                                <p>jQuery</p>
+                                <p>ReactJS</p>
+                                <!-- <p>AngularJS</p> -->
+                            </div>
+                            <div class="column">
+                                <figure class="image" id="is-skill-icon"><img src="img/smartphone.png"></figure>
+                                <h1 class="title is-size-4 is-spaced">Mobile Developer</h1>
+                                <p class="list-title has-text-primary has-text-weight-normal">Languages :
+                                </p>
+                                <p>Kotlin</p>
+                                <p class="list-title has-text-primary has-text-weight-normal">Frameworks :</p>
+                                <p>Native Android</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section is-medium has-text-centered" id="portfolio">
+            <div class="container is-narrow">
+                <h1 class="title is-size-3-desktop is-size-4-mobile">My Portfolio</h1>
+                <div class="content">
+                    <div id="tabs-with-content">
+                        <div class="tabs is-centered">
+                            <ul>
+                                <!-- <li><a id="backend">Back-End</a></li> -->
+                                <li><a id="frontend">Web</a></li>
+                                <li><a id="mobile">Mobile</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <section class="tab-content">
+                                <div class="project-grid">
+                                    <div class="columns is-multiline is-mobile">
+                                        <div class="mycolumn2 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2"><img class="project-thumb" src="img/LBB.png">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen is-size-6-mobile">
+                                                        Landing Page Native
+                                                        + GSAP,
+                                                        Website for Searching Private Tutor</h1><a
+                                                        class="button is-primary is-outlined is-rounded" href="./lbb/"
+                                                        target="_blank"><span>Visit
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn2 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2"><img class="project-thumb"
+                                                    src="img/dashboard.JPG">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen">Dashboard ReactJS
+                                                    </h1><a class="button is-primary is-outlined is-rounded"
+                                                        href="#"><span>Visit
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn2 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2"><img class="project-thumb"
+                                                    src="img/react.png">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen is-size-6-mobile">
+                                                        ReactJS Custom
+                                                        Website</h1><a class="button is-primary is-outlined is-rounded"
+                                                        href="http://juanreact.000webhostapp.com/"
+                                                        target="_blank"><span>Visit
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn2 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2"><img class="project-thumb"
+                                                    src="img/pic-coba.png">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen is-size-6-mobile">
+                                                        HTML GSAP ANIMATION
+                                                        Website</h1><a class="button is-primary is-outlined is-rounded"
+                                                        href="./coba/" target="_blank"><span>Visit
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn2 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2"><img class="project-thumb"
+                                                    src="img/discord.png">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen is-size-6-mobile">
+                                                        DISCORD-CLONE Using ReactJS and Firebase</h1><a
+                                                        class="button is-primary is-outlined is-rounded"
+                                                        href="https://discord-clone-5a100.web.app/"
+                                                        target="_blank"><span>Visit
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn2 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2"><img class="project-thumb"
+                                                    src="img/amazon.png">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen is-size-6-mobile">
+                                                        AMAZON-CLONE Using ReactJS and Firebase</h1><a
+                                                        class="button is-primary is-outlined is-rounded"
+                                                        href="https://clone-38c6d.web.app/" target="_blank"><span>Visit
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn2 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2"><img class="project-thumb"
+                                                    src="img/takiron.png">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen is-size-6-mobile">
+                                                        PT. Takiron Indonesia</h1><a
+                                                        class="button is-primary is-outlined is-rounded"
+                                                        href="https://takiron-front.vercel.app/"
+                                                        target="_blank"><span>Visit
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn2 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2"><img class="project-thumb"
+                                                    src="img/lampungkreatif.png">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen is-size-6-mobile">
+                                                        Bank Indonesia Lampung Event</h1><a
+                                                        class="button is-primary is-outlined is-rounded"
+                                                        href="https://lampungkreatif.com/" target="_blank"><span>Visit
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <!-- <div class="mycolumn2 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2"><img class="project-thumb"
+                                                    src="img/projects/glcsolutions.png">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen">Business savvy tech
+                                                        experts helping forward thinking companies get things done.</h1>
+                                                    <a class="button is-primary is-outlined is-rounded"
+                                                        href="#"><span>Visit Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn2 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2"><img class="project-thumb"
+                                                    src="img/projects/coupal.png">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen">Vancouver's tower
+                                                        crane rental service and support leader since 1974.</h1><a
+                                                        class="button is-primary is-outlined is-rounded" href="#"
+                                                        target="_blank"><span>Visit
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn2 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2"><img class="project-thumb"
+                                                    src="img/projects/wedlerengineering.png">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen">Results-oriented,
+                                                        responsive and flexible full service civil engineering firm.
+                                                    </h1><a class="button is-primary is-outlined is-rounded" href="#"
+                                                        target="_blank"><span>View
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="tab-content">
+                                <div class="project-grid">
+                                    <div class="columns is-multiline is-mobile">
+                                        <div class="mycolumn3 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2" style="height: 500px;"><img
+                                                    class="project-thumb" src="img/finalproject/1.jpeg">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen">Home Menu,
+                                                        Application for Looking Parking Lot
+                                                    </h1>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn3 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2" style="height: 500px;"><img
+                                                    class="project-thumb" src="img/finalproject/4.jpeg">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen">Search Menu,
+                                                        Application for Looking Parking Lot
+                                                    </h1>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn3 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2" style="height: 500px;"><img
+                                                    class="project-thumb" src="img/finalproject/5.jpeg">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen">
+                                                        Add Menu,
+                                                        Application for Looking Parking Lot</h1>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <!-- <div class="mycolumn3 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2" style="height: 500px;"><img
+                                                    class="project-thumb" src="img/finalproject/4.jpeg">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen">Business savvy tech
+                                                        experts helping forward thinking companies get things done.</h1>
+                                                    <a class="button is-primary is-outlined is-rounded"
+                                                        href="#"><span>Visit Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn3 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2" style="height: 500px;"><img
+                                                    class="project-thumb" src="img/finalproject/5.jpeg">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen">Vancouver's tower
+                                                        crane rental service and support leader since 1974.</h1><a
+                                                        class="button is-primary is-outlined is-rounded" href="#"
+                                                        target="_blank"><span>Visit
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="mycolumn3 column is-12-mobile is-half-tablet is-one-third-desktop">
+                                            <figure class="image is-3by2" style="height: 500px;"><img
+                                                    class="project-thumb" src="img/projects/wedlerengineering.png">
+                                                <figcaption>
+                                                    <h1 class="title is-size-5 is-size-4-widescreen">Results-oriented,
+                                                        responsive and flexible full service civil engineering firm.
+                                                    </h1><a class="button is-primary is-outlined is-rounded" href="#"
+                                                        target="_blank"><span>View
+                                                            Website</span><span class="icon"><i
+                                                                class="fas fa-angle-right"></i></span></a>
+                                                </figcaption>
+                                                <div class="overlay"></div>
+                                            </figure>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section is-medium has-text-centered" id="contact">
+            <div class="container" data-aos="fade-up" data-aos-duration="2000">
+                <div class="columns">
+                    <div class="contact-container">
+                        <div class="screen">
+                            <div class="screen-header">
+                                <div class="screen-header-left">
+                                    <div class="screen-header-button close"></div>
+                                    <div class="screen-header-button maximize"></div>
+                                    <div class="screen-header-button minimize"></div>
+                                </div>
+                                <div class="screen-header-right">
+                                    <div class="screen-header-ellipsis"></div>
+                                    <div class="screen-header-ellipsis"></div>
+                                    <div class="screen-header-ellipsis"></div>
+                                </div>
+                            </div>
+                            <div class="screen-body">
+                                <div class="screen-body-item left">
+                                    <div class="app-title">
+                                        <span>CONTACT</span>
+                                        <span>ME</span>
+                                    </div>
+                                    <div class="app-contact">CONTACT INFO : +62 89 676 842 907</div>
+                                </div>
+                                <div class="screen-body-item">
+                                    <div class="app-form">
+                                        <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="NAME" value="Muhammad Juan">
+                                        </div>
+                                        <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="EMAIL">
+                                        </div>
+                                        <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="CONTACT NO">
+                                        </div>
+                                        <div class="app-form-group message">
+                                            <input class="app-form-control" placeholder="MESSAGE">
+                                        </div>
+                                        <div class="app-form-group buttons">
+                                            <button class="app-form-button">CANCEL</button>
+                                            <button class="app-form-button">SEND</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <script src="./js/burger.js"></script>
+    <script src="./js/type.js"></script>
+    <script src="./js/gsapanimation.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('myDiv').style.display = 'block';
+        }
+
+    </script>
+    <script src="./js/tabs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#home{
+    background: url(../img/coba/camera3.jpg) 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#home h1{
+    z-index: 0;
+}
+#about{
+    position: absolute;
+    top: 0;
+    background: url(../img/coba/camera2.jpg) 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 1;
+    z-index: -2;
+}
+
+#about h1{
+    opacity: 0;
+}
+#services{
+    position: absolute;
+    top: 0;
+    background: url(../img/coba/camera1.jpg) 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 1;
+    z-index: -3;
+}
+
+#services h1{
+    opacity: 0;
+}
+#contact{
+    position: absolute;
+    top: 0;
+    background: url(../img/coba/hero.jpg) 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 1;
+    z-index: -3;
+}
+
+#contact h1{
+    opacity: 0;
+}
+
+h1{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    font-weight: lighter;
+}
+
+.toggle-btn{
+    position: fixed;
+    margin: 1em;
+    padding: 1em;
+    width: 40px;
+    height: 12px;
+    right: 0;
+    z-index: 99;
+    cursor: pointer;
+}
+.toggle-btn:hover span.two, .toggle-btn:hover span.one,.toggle-btn:hover span.three{
+    background: rgb(158, 17, 114)
+}
+
+span.one{
+    position: absolute;
+    width: 40px;
+    background: #fff;
+    height: 2px;
+}
+span.two{
+    position: absolute;
+    width: 40px;
+    background: #fff;
+    height: 2px;
+    margin-top: 12px;
+}
+span.three{
+    position: absolute;
+    width: 40px;
+    background: #fff;
+    height: 2px;
+    margin-top: 24px;
+}
+
+.menu{
+    z-index: 2;
+    position:absolute;
+    background: #101010;
+    height: 100vh;
+    width: 100%;
+    top: -100%;
+}
+
+.data{
+    padding: 8em 0 0 2em;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+li:first-child{
+    color: gray;
+    font-family: Poppins;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+li:not(:first-child){
+    color: #fff;
+    font-size: 42px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Poppins;
+}
+
+a:hover{
+    color: rgb(85,0,58);
+}
